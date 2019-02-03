@@ -119,7 +119,7 @@ public class StringCalculator {
 		return checkParenthesis(expression);
 	}
 
-	//To checkif paranthesis are in proper order
+	//To check  if parenthesis are in proper order
 	private static boolean checkParenthesis(String expression) {
 		Stack<Character> clist = new Stack<>();
 		for (char c : expression.toCharArray()) {
